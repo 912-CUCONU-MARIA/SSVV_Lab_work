@@ -3,9 +3,7 @@ package ssvv.example;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.Before;
-/**
- * Unit test for simple App.
- */
+
 public class AppTest
 {
 
