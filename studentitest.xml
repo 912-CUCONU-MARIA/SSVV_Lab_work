@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entitati>
+<student ID="11">
+<Nume>John Cena</Nume>
+<Grupa>937</Grupa>
+</student>
+<student ID="0">
+<Nume>John Cena</Nume>
+<Grupa>937</Grupa>
+</student>
+<student ID="12">
+<Nume>John Cena</Nume>
+<Grupa>937</Grupa>
+</student>
+<student ID="1">
+<Nume>John Cena</Nume>
+<Grupa>937</Grupa>
+</student>
+<student ID="13">
+<Nume>John Cena</Nume>
+<Grupa>937</Grupa>
+</student>
+<student ID="113">
+<Nume>John Cena</Nume>
+<Grupa>932</Grupa>
+</student>
+<student ID="114">
+<Nume>John Cena</Nume>
+<Grupa>932</Grupa>
+</student>
+<student ID="-1">
+<Nume>John Cena</Nume>
+<Grupa>937</Grupa>
+</student>
+<student ID="-32">
+<Nume>John Cena</Nume>
+<Grupa>937</Grupa>
+</student>
+</Entitati>
