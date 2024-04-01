@@ -30,7 +30,7 @@ public class AddAssignmentTest {
         initData();
         int result;
         try {
-            result = service.saveTema(null, "Desc tema", 14,13);
+            result = service.saveTema(null, "Desc tema", 14, 13);
         } catch (Exception ve) {
             result = 1;
         }
@@ -43,7 +43,7 @@ public class AddAssignmentTest {
         initData();
         int result;
         try {
-            result = service.saveTema("5", null, 14,13);
+            result = service.saveTema("5", null, 14, 13);
         } catch (Exception ve) {
             result = 1;
         }
@@ -56,7 +56,7 @@ public class AddAssignmentTest {
         initData();
         int result;
         try {
-            result = service.saveTema("5", "Desc tema", -1,13);
+            result = service.saveTema("5", "Desc tema", -1, 13);
         } catch (Exception ve) {
             result = 1;
         }
@@ -69,7 +69,7 @@ public class AddAssignmentTest {
         initData();
         int result;
         try {
-            result = service.saveTema("5", "Desc tema", 14,-1);
+            result = service.saveTema("5", "Desc tema", 14, -1);
         } catch (Exception ve) {
             result = 1;
         }
@@ -80,9 +80,9 @@ public class AddAssignmentTest {
     public void testAddAssignmentValid() {
         System.out.println("testAddAssignmentValid");
         initData();
-        int result=0;
+        int result = 0;
         try {
-            result = service.saveTema("5", "Desc tema", 14,13);
+            result = service.saveTema("5", "Desc tema", 14, 13);
         } catch (Exception ve) {
             result = 1;
         }
