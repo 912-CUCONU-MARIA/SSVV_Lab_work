@@ -1,8 +1,7 @@
 package ssvv.example;
 
-import org.junit.Assert;
-import org.junit.jupiter.api.Test;
 import org.junit.Before;
+import org.junit.jupiter.api.Test;
 import repository.NotaXMLRepository;
 import repository.StudentXMLRepository;
 import repository.TemaXMLRepository;
@@ -11,8 +10,7 @@ import validation.NotaValidator;
 import validation.StudentValidator;
 import validation.TemaValidator;
 
-public class AppTest
-{
+public class AppTest {
 
     StudentValidator vs;
     TemaValidator vt;
@@ -149,6 +147,7 @@ public class AppTest
         }
         assert (result == 1);
     }
+
     @Test
     public void testAddStudentEmptyName() {
         System.out.println("testAddStudentEmptyName");
